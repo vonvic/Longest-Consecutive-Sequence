@@ -1,0 +1,13 @@
+maintain a list of sequences
+iterate through every element in the list
+    update sequence list
+    when to update?
+    for each sequence that begins in B and ends in E with length L
+      formatted as (B, E, L)
+        if number X == B-1, then update B = X and ++L
+        if number X == E+1, then update E = X and ++L
+        if number B < X < E, then update ++L
+        
+    else (X is not inserted in a sequence)
+        insert X in sequence
+          formatted as (X, X, 1)
